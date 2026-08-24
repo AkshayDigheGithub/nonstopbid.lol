@@ -39,3 +39,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+/src/generated/prisma
+
+# local sqlite (legacy, no longer used — project runs on Postgres)
+*.db
+*.db-journal
+
+# local agent tooling scaffolding (not part of the app)
+/.agents
+/.windsurf
+/.claude/skills
+skills-lock.json
